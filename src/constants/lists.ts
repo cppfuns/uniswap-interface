@@ -1,19 +1,19 @@
 // used to mark unsupported tokens, these are hosted lists of unsupported tokens
 
-const COMPOUND_LIST = 'https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json'
-const UMA_LIST = 'https://umaproject.org/uma.tokenlist.json'
-const AAVE_LIST = 'tokenlist.aave.eth'
-const SYNTHETIX_LIST = 'synths.snx.eth'
-const WRAPPED_LIST = 'wrapped.tokensoft.eth'
-const SET_LIST = 'https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/set.tokenlist.json'
-const OPYN_LIST = 'https://raw.githubusercontent.com/opynfinance/opyn-tokenlist/master/opyn-v1.tokenlist.json'
-const ROLL_LIST = 'https://app.tryroll.com/tokens.json'
-const COINGECKO_LIST = 'https://tokens.coingecko.com/uniswap/all.json'
-const CMC_ALL_LIST = 'defi.cmc.eth'
-const CMC_STABLECOIN = 'stablecoin.cmc.eth'
-const KLEROS_LIST = 't2crtokens.eth'
-const GEMINI_LIST = 'https://www.gemini.com/uniswap/manifest.json'
-const BA_LIST = 'https://raw.githubusercontent.com/The-Blockchain-Association/sec-notice-list/master/ba-sec-list.json'
+const COMPOUND_LIST = ''
+const UMA_LIST = ''
+const AAVE_LIST = ''
+const SYNTHETIX_LIST = ''
+const WRAPPED_LIST = ''
+const SET_LIST = ''
+const OPYN_LIST = ''
+const ROLL_LIST = ''
+const COINGECKO_LIST = ''
+const CMC_ALL_LIST = ''
+const CMC_STABLECOIN = ''
+const KLEROS_LIST = ''
+const GEMINI_LIST = ''
+const BA_LIST = ''
 
 export const UNSUPPORTED_LIST_URLS: string[] = [BA_LIST]
 
