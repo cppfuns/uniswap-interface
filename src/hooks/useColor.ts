@@ -6,7 +6,7 @@ import { Token, ChainId } from '@uniswap/sdk'
 import uriToHttp from 'utils/uriToHttp'
 
 async function getColorFromToken(token: Token): Promise<string | null> {
-  if (token.chainId === ChainId.RINKEBY && token.address === '0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735') {
+  if (token.chainId === ChainId.TESTNET && token.address === '0x48F155527f25EB1d4cb2aa32b7e84692AA0025C0') {
     return Promise.resolve('#FAAB14')
   }
 
